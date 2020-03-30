@@ -13,3 +13,5 @@ You could send text or HTML documents with all types of images, links, etc.
 Built-in system to configure your own SMTP server, just write ./configure_SMTP
 
 For creating your own SMTP server you could use pages like https://www.smtp2go.com/.
+
+Created by m00n_byt3
