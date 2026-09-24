@@ -3,6 +3,21 @@ Easy to use Email Spoofer, with a default preconfigured and modificable SMTP ser
 
 Usable in all Linux distros without installation.
 In English and spanish, whatever you want.
+<br></br>
+> **Educational project created in early 2020**
+
+This project was developed to demonstrate why the visible sender address in an email could not be fully trusted. At the time, attackers could manipulate the `From:` field so that a message appeared to come from another person or domain, making phishing, impersonation, and fraud easier.
+
+Email security has since improved through several technologies:
+
+- **SPF** verifies whether the sending server is authorized by the domain.
+- **DKIM** uses cryptographic signatures to verify message integrity.
+- **DMARC** checks whether SPF or DKIM aligns with the visible `From:` domain and allows domains to reject suspicious messages.
+- **ARC**, reputation systems, and phishing filters provide additional protection.
+
+These controls make basic spoofing more difficult, but they do not make email completely trustworthy. Compromised accounts, lookalike domains, and authenticated malicious messages can still be used in attacks.
+
+This repository is intended solely for **authorized security testing, education, and controlled demonstrations**.
 
 ## Disclaimer
 
